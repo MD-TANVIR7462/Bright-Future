@@ -11,7 +11,7 @@ useEffect(()=>{
 },[])
    return (
       <div className='mt-14 ' >
-         <p className=' mb-3 text-xl md:text-3xl font-bold text-center '>Job Category List</p>
+         <p className=' mb-3 text-2xl md:text-3xl font-bold text-center '>Job Category List</p>
          <p className=' text-center mb-3 text-sm md:text-base px-4  '>Explore thousands of job opportunities with all the information you need. Its your future</p>
 
       <div className='md:px-24 grid  md:grid-cols-4 '>
