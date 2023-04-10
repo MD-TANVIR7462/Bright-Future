@@ -9,6 +9,7 @@ import {
 import Nav from './Components/Nav/Nav';
 import Home from './Components/Home/Home';
 import Featured from './Components/Home/Featured';
+import Details from './Components/details/Details';
 
 const router =createBrowserRouter([
   {
@@ -18,12 +19,15 @@ const router =createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>,
-        loader:()=>fetch('brands.json')
-
-      
-
+        loader:()=>fetch('/brands.json')
       },
-      
+
+      {
+        path:'/Details/:CardId',
+        element:<Details></Details>,
+       
+
+      }
     
     ]
  

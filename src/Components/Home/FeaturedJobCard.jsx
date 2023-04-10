@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { useNavigate } from 'react-router-dom';
 
 
 const FeaturedJobCard = ({ singleItem }) => {
@@ -8,7 +9,12 @@ const FeaturedJobCard = ({ singleItem }) => {
       , Address, company_logo, fulltime_or_parttime,
       id, job_description, job_responsibility, job_title, location
       , remote_or_onsite, salary } = singleItem
-   console.log(singleItem)
+  
+const navigate = useNavigate()
+      const ShowDetail = (CardID)=>{
+         navigate(`/Details/${CardID}`)
+
+      }
    return (
       <div>
          <div className="card m-4 md:m-0 rounded-lg  bg-base-100 shadow-lg border border-gray-200 p-7">
@@ -27,7 +33,7 @@ const FeaturedJobCard = ({ singleItem }) => {
             </div>
             <p className='w-36'>
 
-            <button className=' btn  btn-primary'>View Details</button>
+            <button className=' btn  btn-primary' onClick={()=>ShowDetail(id)}>View Details</button>
 
 
             </p>
