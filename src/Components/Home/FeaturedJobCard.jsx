@@ -17,7 +17,7 @@ const navigate = useNavigate()
       }
    return (
       <div>
-         <div className="card m-4 md:m-0 rounded-lg  bg-base-100 shadow-lg border border-gray-200 p-7">
+         <div className="card m-4 md:m-0 rounded-lg  bg-white shadow-lg border border-gray-200 p-7">
             <img src={company_logo} alt="" className='w-28 h-24  object-cover ' />
             <h2 className="card-title pt-1 font-bold">{job_title}</h2>
             <p className='font-semibold py-2 text-lg'>{company_name}</p>
@@ -27,8 +27,8 @@ const navigate = useNavigate()
                   {fulltime_or_parttime}</button>
             </div>
             <div className='md:flex gap-6 mb-3'>
-               <p className='font-bold text-gray-600 pt-3'><FontAwesomeIcon icon={faLocationDot} />  {location}</p>
-               <p className='font-bold text-gray-600 pt-3'><FontAwesomeIcon icon={faDollarSign} /> Salary : {salary}</p>
+               <p className='font-bold text-gray-600 pt-3'> <span className='text-indigo-500'><FontAwesomeIcon icon={faLocationDot}/></span>  {location}</p>
+               <p className='font-bold text-gray-600 pt-3'> <span className='text-indigo-500'><FontAwesomeIcon icon={faDollarSign} /> </span> Salary : {salary}</p>
 
             </div>
             <p className='w-36'>

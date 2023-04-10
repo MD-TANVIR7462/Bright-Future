@@ -13,10 +13,10 @@
      "educational_requirements": "Bachelor's degree in Computer Science or related field",
      "experiences": "3+ years of experience in software development",
      "Address" : "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
-     "contact_information": {
-       "phone": "225-123-4567",
+   
+       "phone": "+225-123-4567",
        "email": "jobs@facebook.com"
-     }
+
    },
    {
      "id": 2,
@@ -32,10 +32,10 @@
      "educational_requirements": "Bachelor's degree in Business Administration or related field",
      "experiences": "5+ years of experience in product management",
      "Address" : "Times Square, New York City,USA",
-     "contact_information": {
-       "phone": "555-123-4567",
+    
+       "phone": "+555-123-4567",
        "email": "jobs@google.com"
-     }
+
    },
    {
      "id": 3,
@@ -51,10 +51,10 @@
      "educational_requirements": "Master's degree in Computer Science, Statistics, or related field",
      "experiences": "2+ years of experience in data science",
      "Address" : "La Rambla, 08002 Barcelona, Spain",
-     "contact_information": {
-       "phone": "533-125-4567",
+ 
+       "phone": "+533-125-4567",
        "email": "jobs@microsoft.com"
-     }
+
    },
    {
      "id": 4,
@@ -70,10 +70,10 @@
      "educational_requirements": "Bachelor's degree in Graphic Design or related field",
      "experiences": "3+ years of experience in UI/UX design",
      "Address" : "Shibuya City, Tokyo 150-0043, Japan",
-     "contact_information": {
-       "phone": "666-123-4567",
-       "email": "jobs@yahoo.com"
-     }
+    
+       "phone": "+333-123-4567",
+       "email": "jobs@Netlify.com"
+ 
    },
   
  {
@@ -90,10 +90,10 @@
    "educational_requirements": "Bachelor's degree in Computer Science or related field",
    "experiences": "3+ years of professional software engineering experience",
    "Address" : "Tsim Sha Tsui, Hong Kong",
-   "contact_information": {
-     "phone": "995-555-5555",
+   
+     "phone": "+995-555-5555",
      "email": "jobs@tesla.com"
-   }
+
  },
  {
    "id": 6,
@@ -109,10 +109,9 @@
    "educational_requirements": "Bachelor's degree in Computer Science, Business, or related field",
    "experiences": "5+ years of experience in product management, preferably in the technology industry",
    "Address" : "Nanshan District,China",
-   "contact_information": {
      "phone": "+86 755-86013388",
-     "email": "jobs@tencent.com"
-   }
+     "email": "jobs@Instagram.com"
+  
  }
 
 ]

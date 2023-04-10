@@ -25,7 +25,7 @@ const router =createBrowserRouter([
       {
         path:'/Details/:CardId',
         element:<Details></Details>,
-       
+       loader:()=>fetch('/brands.json')
 
       }
     

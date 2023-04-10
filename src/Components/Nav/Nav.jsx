@@ -22,14 +22,14 @@ const Nav = () => {
               <li> <a className={({ isActive }) => isActive ? "text-blue-800 pl-4" : "'text-black  pl-4 "}> Blog</a></li>
             </ul>
           </div>
-          <a className=" font-bold text-base md:text-2xl">Code<span className='text-pink-700'>Your</span>Career</a>
+          <a className=" font-bold text-base md:text-3xl">Code<span className='text-pink-700'>Your</span>Career</a>
         </div>
-        <div className="navbar-center hidden lg:flex ">
+        <div className="navbar-center hidden lg:flex text-xl ">
           <ul className="menu menu-horizontal  font-bold mx-5">
-            <NavLink to={'/'} className={({ isActive }) => isActive ? 'text-indigo-700 mr-3' : 'text-black mx-3'}>Home</NavLink>
-            <a className={({ isActive }) => isActive ? "text-blue-800 pl-4" : "text-black pl-4"}> Statistics</a>
-            <a className={({ isActive }) => isActive ? "text-blue-800 pl-4" : "'text-black  pl-4 "}> Applied Jobs</a>
-            <a className={({ isActive }) => isActive ? "text-blue-800 pl-4" : "'text-black  pl-4 "}>Blog</a>
+            <NavLink to={'/'} className={({ isActive }) => isActive ? 'text-indigo-700 mr-3 ' : 'text-black mr-3'}>Home</NavLink>
+            <NavLink to={'statis'} className={({ isActive }) => isActive ? "text-blue-800 pl-4" : "text-black pl-4"}> Statistics</NavLink >
+            <NavLink to={'Apply'} className={({ isActive }) => isActive ? "text-blue-800 pl-4" : "'text-black  pl-4 "}> Applied Jobs</NavLink >
+            <NavLink to={'Blog'} className={({ isActive }) => isActive ? "text-blue-800 pl-4" : "'text-black  pl-4 "}>Blog</NavLink >
            
           </ul>
         </div>
