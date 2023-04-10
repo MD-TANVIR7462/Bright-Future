@@ -13,10 +13,16 @@ const FeaturedJobs = (props) => {
       }
  },[])
    return (
+
+      <div className='my-12'>
+         <h2 className=' mb-3 text-2xl md:text-3xl font-bold text-center'>Featured Jobs</h2>
+         <p className=' text-center mb-3 text-sm md:text-base px-4 '>Explore thousands of job opportunities with all the information you need. Its your future</p>
       <div className='mx-28 grid grid-cols-2 gap-3'>
        {
         Items.map(singleItem => <FeaturedJobCard singleItem={singleItem} key={singleItem.id}></FeaturedJobCard>)
        }
+      </div>
+     <p className='text-center my-5'> <button className='btn btn-primary '>See All Jobs</button></p>
       </div>
    );
 };
