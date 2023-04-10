@@ -22,7 +22,7 @@ const Nav = () => {
               <li> <a className={({ isActive }) => isActive ? "text-blue-800 pl-4" : "'text-black  pl-4 "}> Blog</a></li>
             </ul>
           </div>
-          <a className=" font-bold text-base md:text-xl">Code<span className='text-pink-700'>Your</span>Career</a>
+          <a className=" font-bold text-base md:text-2xl">Code<span className='text-pink-700'>Your</span>Career</a>
         </div>
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal  font-bold mx-5">
