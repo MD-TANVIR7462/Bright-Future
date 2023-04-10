@@ -1,0 +1,118 @@
+ [
+   {
+     "id": 1,
+     "company_logo": "https://seeklogo.com/images/F/facebook-logo-C64946D6D2-seeklogo.com.png",
+     "job_title": "Software Engineer",
+     "company_name": "Facebook",
+     "remote_or_onsite": "Remote",
+     "location": "San Francisco, CA",
+     "fulltime_or_parttime": "Full-time",
+     "salary": "100K - 150K ",
+     "job_description": "We are seeking a talented software engineer to join our team...",
+     "job_responsibility": "Develop and maintain high-quality software...",
+     "educational_requirements": "Bachelor's degree in Computer Science or related field",
+     "experiences": "3+ years of experience in software development",
+     "Address" : "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+     "contact_information": {
+       "phone": "225-123-4567",
+       "email": "jobs@facebook.com"
+     }
+   },
+   {
+     "id": 2,
+     "company_logo": "https://ibb.co/Gptb1KW",
+     "job_title": "Product Manager",
+     "company_name": "Google",
+     "remote_or_onsite": "Onsite",
+     "location": "Mountain View, CA",
+     "fulltime_or_parttime": "Full-time",
+     "salary": "80K - 120K",
+     "job_description": "We are looking for a talented product manager to lead...",
+     "job_responsibility": "Define and execute product strategy...",
+     "educational_requirements": "Bachelor's degree in Business Administration or related field",
+     "experiences": "5+ years of experience in product management",
+     "Address" : "Times Square, New York City,USA",
+     "contact_information": {
+       "phone": "555-123-4567",
+       "email": "jobs@google.com"
+     }
+   },
+   {
+     "id": 3,
+     "company_logo": "https://www.logo.wine/a/logo/Microsoft/Microsoft-Logo.wine.svg",
+     "job_title": "Data Scientist",
+     "company_name": "Microsoft",
+     "remote_or_onsite": "Remote",
+     "location": "Redmond, WA",
+     "fulltime_or_parttime": "Full-time",
+     "salary": "120K - 160K",
+     "job_description": "We are seeking a talented data scientist to join our team...",
+     "job_responsibility": "Develop and implement data models...",
+     "educational_requirements": "Master's degree in Computer Science, Statistics, or related field",
+     "experiences": "2+ years of experience in data science",
+     "Address" : "La Rambla, 08002 Barcelona, Spain",
+     "contact_information": {
+       "phone": "533-125-4567",
+       "email": "jobs@microsoft.com"
+     }
+   },
+   {
+     "id": 4,
+     "company_logo": "https://ibb.co/2Fqq5s2",
+     "job_title": "UI/UX Designer",
+     "company_name": "Netflix",
+     "remote_or_onsite": "Onsite",
+     "location": "Sunnyvale, CA",
+     "fulltime_or_parttime": "Full-time",
+     "salary": "70K - 130K",
+     "job_description": "We are looking for a talented UI/UX designer to join our team...",
+     "job_responsibility": "Design and implement user interfaces...",
+     "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+     "experiences": "3+ years of experience in UI/UX design",
+     "Address" : "Shibuya City, Tokyo 150-0043, Japan",
+     "contact_information": {
+       "phone": "666-123-4567",
+       "email": "jobs@yahoo.com"
+     }
+   },
+  
+ {
+   "id": 5,
+   "company_logo": "https://ibb.co/2cRrcvd",
+   "job_title": "Software Engineer",
+   "company_name": "Tesla",
+   "remote_or_onsite": "Remote",
+   "location": "California",
+   "fulltime_or_parttime": "Full-time",
+   "salary": "80K - 150K",
+   "job_description": "We are seeking a talented software engineer to join our team and help us build the next generation of electric vehicles.",
+   "job_responsibility": "Design, develop, and maintain software systems and applications to support the production of Tesla's electric vehicles.",
+   "educational_requirements": "Bachelor's degree in Computer Science or related field",
+   "experiences": "3+ years of professional software engineering experience",
+   "Address" : "Tsim Sha Tsui, Hong Kong",
+   "contact_information": {
+     "phone": "995-555-5555",
+     "email": "jobs@tesla.com"
+   }
+ },
+ {
+   "id": 6,
+   "company_logo": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg",
+   "job_title": "Product Manager",
+   "company_name": "Tencent",
+   "remote_or_onsite": "Onsite",
+   "location": "Shenzhen, China",
+   "fulltime_or_parttime": "Full-time",
+   "salary": "70K - 100K",
+   "job_description": "We are looking for an experienced product manager to help us shape the future of social networking in China.",
+   "job_responsibility": "Lead product development and strategy for Tencent's social networking platform",
+   "educational_requirements": "Bachelor's degree in Computer Science, Business, or related field",
+   "experiences": "5+ years of experience in product management, preferably in the technology industry",
+   "Address" : "Nanshan District,China",
+   "contact_information": {
+     "phone": "+86 755-86013388",
+     "email": "jobs@tencent.com"
+   }
+ }
+
+]
