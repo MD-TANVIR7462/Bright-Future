@@ -11,7 +11,7 @@ const Image = () => {
 <p className='text-4xl font-bold'>Closer To Your</p>
 <p className='text-4xl font-bold text-indigo-700'>Dream Job</p>
 <p className='text-gray-600 py-5'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
-<button className="btn btn-active btn-primary">Get Started</button>
+<button className="btn btn-active btn-primary mb-3">Get Started</button>
 </div>
 
 
