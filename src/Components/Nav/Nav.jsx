@@ -3,7 +3,7 @@ import React from 'react';
 const Nav = () => {
    return (
       <div>
-         <div className="navbar bg-indigo-50 md:px-10 ">
+         <div className="navbar bg-indigo-50 md:px-28 ">
  
          
         <div className="navbar-start">
@@ -34,7 +34,7 @@ const Nav = () => {
         </div>
         <div className="navbar-end">
        
-<button className="btn btn-active btn-primary">Apply</button>
+<button className="btn btn-active btn-primary">Star Applying</button>
 
         </div>
       
