@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import FeaturedJobCard from './FeaturedJobCard';
 
 const FeaturedJobs = (props) => {
    const Brands =  props.brands
@@ -12,9 +13,9 @@ const FeaturedJobs = (props) => {
       }
  },[])
    return (
-      <div>
+      <div className='mx-28 grid grid-cols-2 gap-3'>
        {
-        Items.map(singleItem => console.log(singleItem))
+        Items.map(singleItem => <FeaturedJobCard singleItem={singleItem} key={singleItem.id}></FeaturedJobCard>)
        }
       </div>
    );

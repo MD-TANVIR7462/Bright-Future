@@ -6,7 +6,7 @@ const FeatureCard = ({ feature }) => {
    console.log(logo)
 
    return (
-      <div className=' card rounded-lg w-64 h-48 bg-indigo-50  mx-auto mb-2 md:m-4 p-7 gap-6 cursor-pointer'>
+      <div className=' card rounded-lg w-4/5 md:w-64 h-48 bg-indigo-50  mx-auto mb-2 md:m-4 p-7 gap-6 cursor-pointer'>
          <div  >
 
             <img src={logo} alt="" className='bg-indigo-200 p-3  rounded-md' />
