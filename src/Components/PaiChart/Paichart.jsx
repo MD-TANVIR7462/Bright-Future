@@ -16,7 +16,7 @@ const Paichart = () => {
     ];
    return (
       <div className='' >
-        <h2 className='flex justify-center mt-20'>
+        <h2 className='flex justify-center my-24'>
         <PieChart width={300} height={300}>
           <Pie
             dataKey="value"
