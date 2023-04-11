@@ -37,8 +37,8 @@ const ApplyJobs = () => {
 
    console.log(jobs)
    return (
-      <div className='w-9/12 mx-auto  my-20'>
-         <div className='flex justify-end mb-3'>
+      <div className=' w-11/12 md:w-9/12 mx-auto  my-20'>
+         <div className='flex  justify-end mb-3'>
          <div className="dropdown dropdown-end">
   <label tabIndex={0} className="btn m-1 btn-primary">Filter By</label>
   <ul tabIndex={0} className="dropdown-content bg-indigo-200 menu p-2 shadow  rounded-box w-52">

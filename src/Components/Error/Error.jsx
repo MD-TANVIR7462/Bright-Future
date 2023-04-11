@@ -11,7 +11,7 @@ const error = useRouteError();
       <div>
          <section className='flex items-center h-screen p-16 bg-gray-100 text-gray-900'>
       <div className='container flex flex-col items-center justify-center px-5 mx-auto my-8'>
-<img src="https://pic.onlinewebfonts.com/svg/img_505377.png" className='w-40 bg-slate-200 rounded-lg' alt="" />
+<img src="https://pic.onlinewebfonts.com/svg/img_505377.png" className='w-40 bg-white rounded-lg' alt="" />
 
         <div className='max-w-md text-center'>
           <h2 className='mb-8 font-extrabold text-9xl text-gray-400'>

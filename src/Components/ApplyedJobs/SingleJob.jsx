@@ -10,8 +10,8 @@ const SingleJob = ({job}) => {
       id, job_description, job_responsibility, job_title, location
       , remote_or_onsite, salary } = job
    return (
-      <div  className=' shadow-lg flex p-5 rounded-lg mb-3 border border-gray-200 justify-between items-center '>
-   <div className='flex gap-5 items-center'>
+      <div  className=' shadow-lg md:flex  p-3 md:p-5 rounded-lg mb-3 border border-gray-200 justify-between items-center '>
+   <div className='md:flex gap-5 items-center'>
       <img src={company_logo} alt="Logo" className='w-32 h-32 object-cover' />
       <div>
       <h2 className="card-title pt-1 font-bold">{job_title}</h2>
