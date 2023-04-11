@@ -28,9 +28,9 @@ const StoreData = (StoreInDb)=>{
             <p className='mb-6 text-lg'> <span className='font-bold mb-8'>Job Description :</span> <span className=' font-semibold text-gray-500'>{job_description}</span>  </p>
             <p className='mb-6 text-lg'> <span className='font-bold mb-8'>Job Responsibility :</span>  <span className=' font-semibold text-gray-500'>{job_responsibility}</span> </p>
             <p className=' text-lg'><span className='font-bold mb-8'>Educational Requirements :</span> </p>
-            <p className='mt-2 mb-5 font-semibold text-gray-500'><span className='text-pink-500'> <FontAwesomeIcon icon={faArrowRight} /></span>  {educational_requirements}</p>
+            <p className='mt-2 mb-5 font-semibold text-gray-500'><span className='text-indigo-600'> <FontAwesomeIcon icon={faArrowRight} /></span>  {educational_requirements}</p>
             <p className=' text-lg'><span className='font-bold mb-8 '>Experiences:</span></p>
-            <p className='mt-2 font-semibold text-gray-500'><span className='text-pink-500'> <FontAwesomeIcon icon={faArrowRight} /></span> {experiences}</p>
+            <p className='mt-2 font-semibold text-gray-500'><span className='text-indigo-600 '> <FontAwesomeIcon icon={faArrowRight} /></span> {experiences}</p>
          </div>
          
 

@@ -4,7 +4,7 @@ import { faLocationDot, faDollarSign } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 
 const SingleJob = ({job}) => {
-   console.log(job)
+   // console.log(job)
    const { company_name, educational_requirements, experiences
       , Address, company_logo, fulltime_or_parttime,
       id, job_description, job_responsibility, job_title, location
