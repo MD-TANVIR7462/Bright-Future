@@ -22,8 +22,8 @@ const navigate = useNavigate()
             <h2 className="card-title pt-1 font-bold">{job_title}</h2>
             <p className='font-semibold py-2 text-lg'>{company_name}</p>
             <div className='flex'>
-               <button className="btn btn-outline btn-primary  mr-4 rounded-md">{remote_or_onsite}</button>
-               <button className="btn btn-outline btn-primary  rounded-md">
+               <button className="btn btn-outline border border-pink-700 text-pink-800 bg-gradient-to-r hover:from-pink-500 hover:to-indigo-950  rounded-md mr-4">{remote_or_onsite}</button>
+               <button className="btn btn-outline border border-pink-700 text-pink-800 bg-gradient-to-r hover:from-pink-500 hover:to-indigo-950  rounded-md">
                   {fulltime_or_parttime}</button>
             </div>
             <div className='md:flex gap-6 mb-3'>
@@ -33,7 +33,7 @@ const navigate = useNavigate()
             </div>
             <p className='w-36'>
 
-            <button className=' btn  btn-primary' onClick={()=>ShowDetail(id)}>View Details</button>
+            <button className=' text-xs md:text-base btn border-none px-3 py-2 rounded-lg text-white font-bold  bg-gradient-to-r from-pink-400 to-purple-900 hover:from-pink-500 hover:to-indigo-950' onClick={()=>ShowDetail(id)}>View Details</button>
 
 
             </p>

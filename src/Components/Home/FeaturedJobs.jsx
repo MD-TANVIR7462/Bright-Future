@@ -22,7 +22,8 @@ const FeaturedJobs = (props) => {
         Items.map(singleItem => <FeaturedJobCard singleItem={singleItem} key={singleItem.id}></FeaturedJobCard>)
        }
       </div>
-     <p className={Items.length===4?'text-center my-5':'hidden'}> <button className='btn btn-primary ' onClick={()=>setItems(Brands)}>See All Jobs</button></p>
+     <p className={Items.length===4?'text-center my-5':'hidden'}> <button className='text-xs md:text-base btn border-none px-5 py-3 rounded-lg text-white font-bold  bg-gradient-to-r from-pink-400 to-purple-900 hover:from-pink-500 hover:to-indigo-950 ' onClick={()=>setItems(Brands)}>See All Jobs</button></p>
+
       </div>
    );
 };

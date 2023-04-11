@@ -19,9 +19,7 @@ const error = useRouteError();
           <p className='text-2xl font-semibold md:text-3xl mb-8'>
             {error.data}
           </p>
-         <Link to={'/'} ><button type="button" class=" px-5 py-3 rounded-lg text-white font-bold bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">
-  Back Home
-</button></Link>
+         <Link to={'/'} ><button type="button" className="text-xs md:text-base btn border-none px-5 py-3 rounded-lg text-white font-bold  bg-gradient-to-r from-pink-400 to-purple-900 hover:from-pink-500 hover:to-indigo-950">Back Home</button></Link>
         </div>
       </div>
     </section>

@@ -11,6 +11,7 @@ import Home from './Components/Home/Home';
 import Featured from './Components/Home/Featured';
 import Details from './Components/details/Details';
 import Error from './Components/Error/Error';
+import ApplyJobs from './Components/ApplyedJobs/ApplyJobs/ApplyJobs';
 
 const router =createBrowserRouter([
   {
@@ -29,6 +30,11 @@ const router =createBrowserRouter([
         element:<Details></Details>,
        loader:()=>fetch('/brands.json')
 
+      },
+      {
+        path:'/Applyjobs',
+        element:<ApplyJobs></ApplyJobs>,
+        loader:()=>fetch('/brands.json')
       }
     
     ]

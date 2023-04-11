@@ -1,8 +1,20 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight,faDollarSign,faCalendarDays,faPhone,faLocation,faMailBulk } from '@fortawesome/free-solid-svg-icons'
+import { addToDb } from '../../utilities/fakedb';
 
 const DetailsCard = ({ details }) => {
+
+const StoreData = (StoreInDb)=>{
+   console.log(StoreInDb)
+   addToDb(StoreInDb.id)
+
+}
+
+
+
+
+
    const { company_name, educational_requirements, experiences
       , Address, company_logo, fulltime_or_parttime,
       id, job_description, job_responsibility, job_title, location
@@ -16,9 +28,9 @@ const DetailsCard = ({ details }) => {
             <p className='mb-6 text-lg'> <span className='font-bold mb-8'>Job Description :</span> <span className=' font-semibold text-gray-500'>{job_description}</span>  </p>
             <p className='mb-6 text-lg'> <span className='font-bold mb-8'>Job Responsibility :</span>  <span className=' font-semibold text-gray-500'>{job_responsibility}</span> </p>
             <p className=' text-lg'><span className='font-bold mb-8'>Educational Requirements :</span> </p>
-            <p className='mt-2 mb-5 font-semibold text-gray-500'><span className='text-indigo-500'> <FontAwesomeIcon icon={faArrowRight} /></span>  {educational_requirements}</p>
+            <p className='mt-2 mb-5 font-semibold text-gray-500'><span className='text-pink-500'> <FontAwesomeIcon icon={faArrowRight} /></span>  {educational_requirements}</p>
             <p className=' text-lg'><span className='font-bold mb-8 '>Experiences:</span></p>
-            <p className='mt-2 font-semibold text-gray-500'><span className='text-indigo-500'> <FontAwesomeIcon icon={faArrowRight} /></span> {experiences}</p>
+            <p className='mt-2 font-semibold text-gray-500'><span className='text-pink-500'> <FontAwesomeIcon icon={faArrowRight} /></span> {experiences}</p>
          </div>
          
 
@@ -60,7 +72,9 @@ const DetailsCard = ({ details }) => {
                <span className='font-semibold text-gray-600'> {Address}</span>
             </p>
          </div>
-         <button className='btn btn-primary w-full mt-4 rounded-md'>Apply Now</button>
+         <button className='   w-full mt-4 rounded-md text-xs md:text-base btn border-none px-5 py-3  text-white font-bold  bg-gradient-to-r from-pink-400 to-purple-900 hover:from-pink-500 hover:to-indigo-950' onClick={()=>StoreData(details)} >Apply Now</button>
+
+
 </div>
         
         
