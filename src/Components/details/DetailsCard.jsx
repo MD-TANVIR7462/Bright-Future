@@ -38,6 +38,8 @@ const StoreData = (StoreInDb)=>{
       <div className='  md:w-11/12 shadow-md rounded-lg p-4 bg-white
        md:grid grid-cols-3 gap-12 mx-auto md:p-10'>
          <div className='col-span-2 mb-10 md:mb-0'>
+            <img src={company_logo} alt="" className='w-28 h-28 mb-1 object-cover' />
+            <p className='font-bold text-gray-500 mb-4 pl-4'>{company_name} </p>
             <p className='mb-6 text-lg'> <span className='font-bold mb-8'>Job Description :</span> <span className=' font-semibold text-gray-500'>{job_description}</span>  </p>
             <p className='mb-6 text-lg'> <span className='font-bold mb-8'>Job Responsibility :</span>  <span className=' font-semibold text-gray-500'>{job_responsibility}</span> </p>
             <p className=' text-lg'><span className='font-bold mb-8'>Educational Requirements :</span> </p>
