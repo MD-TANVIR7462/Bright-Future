@@ -2,11 +2,24 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight,faDollarSign,faCalendarDays,faPhone,faLocation,faMailBulk } from '@fortawesome/free-solid-svg-icons'
 import { addToDb } from '../../utilities/fakedb';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const DetailsCard = ({ details }) => {
 
 const StoreData = (StoreInDb)=>{
-   console.log(StoreInDb)
+   if(StoreInDb)
+   toast.success('Apply Successful!', {
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      })
+   
    addToDb(StoreInDb.id)
 
 }
@@ -73,11 +86,11 @@ const StoreData = (StoreInDb)=>{
             </p>
          </div>
          <button className='   w-full mt-4 rounded-md text-xs md:text-base btn border-none px-5 py-3  text-white font-bold  bg-gradient-to-r from-pink-400 to-purple-900 hover:from-pink-500 hover:to-indigo-950' onClick={()=>StoreData(details)} >Apply Now</button>
-
+         <ToastContainer/>
 
 </div>
         
-        
+
       </div>
    );
 };
