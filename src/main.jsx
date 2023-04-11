@@ -10,11 +10,13 @@ import Nav from './Components/Nav/Nav';
 import Home from './Components/Home/Home';
 import Featured from './Components/Home/Featured';
 import Details from './Components/details/Details';
+import Error from './Components/Error/Error';
 
 const router =createBrowserRouter([
   {
     path:'/',
     element:<App></App>,
+    errorElement:<Error></Error>,
     children:[
       {
         path:'/',
