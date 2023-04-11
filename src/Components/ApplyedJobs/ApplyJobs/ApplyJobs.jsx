@@ -37,7 +37,7 @@ let [jobs,setjob]=useState([])
 
 console.log(jobs)
    return (
-      <div className='w-9/12 mx-auto'>
+      <div className='w-9/12 mx-auto '>
          {
             jobs.map(job=><SingleJob key={job.id} job={job}></SingleJob>)
          }
