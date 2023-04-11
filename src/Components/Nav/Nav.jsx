@@ -1,9 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Nav = () => {
    return (
-      <div>
+      <div >
          <div className="navbar bg-indigo-50 px-2 md:px-28  h-28">
  
          
@@ -19,17 +19,17 @@ const Nav = () => {
 
               </li>
               <li> <NavLink to={'/Applyjobs'} className={({ isActive }) => isActive ? " text-pink-900" : "'text-black  pl-4 "}> Applied Jobs</NavLink ></li>
-              <li> <NavLink to={'cal'} className={({ isActive }) => isActive ? " text-pink-900 pl-4" : "'text-black  pl-4 "}> Blog</NavLink></li>
+              <li> <NavLink to={'/Blogs'} className={({ isActive }) => isActive ? " text-pink-900 pl-4" : "'text-black  pl-4 "}> Blog</NavLink></li>
             </ul>
           </div>
-          <a className=" font-bold text-base md:text-3xl">Code<span className='text-pink-900'>Your</span>Career</a>
+          <Link to={'/'} className=" font-bold text-base md:text-3xl"><span className='text-pink-900'>Bright</span>Future</Link>
         </div>
         <div className="navbar-center hidden lg:flex text-xl ">
           <ul className="menu menu-horizontal  font-bold mx-5">
             <NavLink to={'/'} className={({ isActive }) => isActive ? ' text-pink-900 mr-3 ' : 'text-black mr-3'}>Home</NavLink>
             <NavLink to={'statis'} className={({ isActive }) => isActive ? " text-pink-900 pl-4" : "text-black pl-4"}> Statistics</NavLink >
             <NavLink to={'/Applyjobs'} className={({ isActive }) => isActive ? " text-pink-900 pl-4" : "'text-black  pl-4 "}> Applied Jobs</NavLink >
-            <NavLink to={'Blog'} className={({ isActive }) => isActive ? " text-pink-900 pl-4" : "'text-black  pl-4 "}>Blog</NavLink >
+            <NavLink to={'/Blogs'} className={({ isActive }) => isActive ? " text-pink-900 pl-4" : "'text-black  pl-4 "}>Blog</NavLink >
            
           </ul>
         </div>
