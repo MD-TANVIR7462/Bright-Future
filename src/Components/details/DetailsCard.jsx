@@ -10,7 +10,7 @@ const DetailsCard = ({ details }) => {
 const StoreData = (StoreInDb)=>{
    if(StoreInDb)
    toast.success('Apply Successful!', {
-      position: "top-center",
+      position: "top-left",
       autoClose: 3000,
       hideProgressBar: false,
       closeOnClick: true,
