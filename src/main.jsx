@@ -13,6 +13,7 @@ import Details from './Components/details/Details';
 import Error from './Components/Error/Error';
 import ApplyJobs from './Components/ApplyedJobs/ApplyJobs/ApplyJobs';
 import Question from './Components/Questions/Question';
+import Paichart from './Components/PaiChart/Paichart';
 
 const router =createBrowserRouter([
   {
@@ -40,6 +41,11 @@ const router =createBrowserRouter([
       {
         path:'/Blogs',
         element:<Question></Question>
+
+      },
+      {
+        path:'/statics',
+        element:<Paichart></Paichart>
 
       }
     

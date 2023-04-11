@@ -15,7 +15,7 @@ const Nav = () => {
             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold">
               <li><NavLink to={'/'} className={  ({ isActive }) => isActive ? 'text-pink-900' : 'text-black pl-4'}>Home</NavLink ></li>
               <li tabIndex={0}>
-                <NavLink to={'bl'} className={({ isActive }) => isActive ? " text-pink-900" : "'text-black pl-4"}> Statistics</NavLink >
+                <NavLink to={'/statics'} className={({ isActive }) => isActive ? " text-pink-900" : "'text-black pl-4"}> Statistics</NavLink >
 
               </li>
               <li> <NavLink to={'/Applyjobs'} className={({ isActive }) => isActive ? " text-pink-900" : "'text-black  pl-4 "}> Applied Jobs</NavLink ></li>
@@ -27,7 +27,7 @@ const Nav = () => {
         <div className="navbar-center hidden lg:flex text-xl ">
           <ul className="menu menu-horizontal  font-bold mx-5">
             <NavLink to={'/'} className={({ isActive }) => isActive ? ' text-pink-900 mr-3 ' : 'text-black mr-3'}>Home</NavLink>
-            <NavLink to={'statis'} className={({ isActive }) => isActive ? " text-pink-900 pl-4" : "text-black pl-4"}> Statistics</NavLink >
+            <NavLink to={'/statics'} className={({ isActive }) => isActive ? " text-pink-900 pl-4" : "text-black pl-4"}> Statistics</NavLink >
             <NavLink to={'/Applyjobs'} className={({ isActive }) => isActive ? " text-pink-900 pl-4" : "'text-black  pl-4 "}> Applied Jobs</NavLink >
             <NavLink to={'/Blogs'} className={({ isActive }) => isActive ? " text-pink-900 pl-4" : "'text-black  pl-4 "}>Blog</NavLink >
            

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useRouteError } from 'react-router-dom';
+import Paichart from '../PaiChart/Paichart';
 
 const Error = () => {
 //  const {error,status}=useRouteError()
@@ -23,6 +24,7 @@ const error = useRouteError();
         </div>
       </div>
     </section>
+    
       </div>
    );
 };

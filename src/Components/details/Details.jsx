@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import DetailsCard from './DetailsCard';
+import Paichart from '../PaiChart/Paichart';
 
 const Details = () => {
 
@@ -24,6 +25,7 @@ const Details = () => {
 
    return (
       <div className='my-20'>
+        
 <DetailsCard details={details}></DetailsCard>
       </div>
    );
