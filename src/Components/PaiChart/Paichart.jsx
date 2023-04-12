@@ -15,8 +15,14 @@ const Paichart = () => {
       { name: 'Assignment-8', value: 60 }
     ];
    return (
-      <div className='' >
-        <h2 className='flex justify-center my-24'>
+      <div className='bg-gradient-to-r from-pink-300 to-purple-600 ' >
+
+         <h2 className='text-2xl text-violet-700
+          font-bold text-center underline pt-4'>Assignment Analytics</h2>
+         <h2 className='text-lg text-violet-700
+          font-bold text-center pt-4'>Avg Assignment Mark : (59.25)</h2>
+         
+        <h2 className='flex justify-center  mt-24'>
         <PieChart width={300} height={300}>
           <Pie
             dataKey="value"
@@ -25,7 +31,7 @@ const Paichart = () => {
             cx="50%"
             cy="50%"
             outerRadius={80}
-            fill="#8884d8"
+            fill="#151B54"
             label
           />
          
@@ -34,7 +40,7 @@ const Paichart = () => {
 
 
         </h2>
-
+        <p className='text-xl text-center font-bold underline pb-10 text-violet-700'>piChart</p>
       </div>
    );
 };
