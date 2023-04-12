@@ -1,6 +1,6 @@
 # BrightFuture
 
-an platform for finding onsite or Remote jobs,al the companys are haires with  an maximum level of ammaount
+an platform for finding onsite or Remote jobs,all the companys are haires with  an maximum level of ammaount
 
 ## Live Link
 Hosted in Netlify -> [BrightFuture](https://tanvir-ass-9.netlify.app)
