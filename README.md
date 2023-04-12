@@ -9,7 +9,7 @@ Hosted in Netlify -> [BrightFuture](https://tanvir-ass-9.netlify.app)
 * How Does its work
 if you come to this page you will see the home page ,in the home page there are some important taxt and one image at the top, then starts the Job Category List section,this section load by a json file , the json file have an id, name,logo,and how many jobs are abaile able this information..after that the interestig part start,After the job category section you will see the Featured Jobs section,This section have 6 job details but by defult its show 4 job categorys ,,if you click the (see all jobs button) you will see all the 6 job categorys ,,,
 
-* Routes
+## Routes
 
 There are some Routes named 
 1.home
